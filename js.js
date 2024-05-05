@@ -1,13 +1,13 @@
 "use strict";
 /*
-ЗАДАЧА:
-Создайте игру "Собери алфавит"
+TASK:
+Create an alphabet game
 
-ПОДСКАЗКИ:
+TIPS:
 
-1-Не думайте о сокращении кода. Если будет очень много повторений однотипного кода - это нормально. Первая задача понимать логику языка, а только после оптимизировать его.
-2-Помните про методы переноса элемента из одного места в другое(before, after и т.д.)
-3-Помните про свойства, получения соседних элементов (previousElementSibling, previousElementSibling и т.д)
+1-Don't think about shortening the code. If there are a lot of repetitions of the same type of code, this is normal. The first task is to understand the logic of the language, and only then optimize it.
+2-Remember about the methods for moving an element from one place to another (before, after, etc.)
+3-Remember about properties, getting neighboring elements (previousElementSibling, previousElementSibling, etc.)
 
 */
 const boxes = document.querySelectorAll(".boxes__box");
